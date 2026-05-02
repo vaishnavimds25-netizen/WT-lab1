@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+            text-align: center;
+            padding: 10px;
+        }
+
+        @keyframes fade {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Responsive */
+        @media screen and (max-width: 600px) {
+            .columns {
+                column-count: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Webpage</h1>
+        <p>Responsive webpage using CSS3</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <div class="box">
+            <i class="fa-solid fa-laptop"></i>
+            <h3>Web Design</h3>
+            <p>Simple responsive design using HTML and CSS.</p>
+        </div>
+
+        <div class="box">
+            <i class="fa-solid fa-mobile"></i>
+            <h3>Responsive</h3>
+            <p>Adjusts properly on mobile and desktop.</p>
+        </div>
+
+        <div class="box">
+            <i class="fa-solid fa-star"></i>
+            <h3>CSS3 Features</h3>
+            <p>Uses animation, icons and transformations.</p>
+        </div>
+
+    </div>
+
+    <div class="columns">
+        This webpage is created using basic CSS3 features like animations, icons, transformations and multiple columns. Media queries are used to make the webpage responsive on smaller screens. Hover effects are also added to make the webpage interactive.
+    </div>
+
+    <footer>
+        <p>Created by Student</p>
+    </footer>
+
+</body>
+</html>
